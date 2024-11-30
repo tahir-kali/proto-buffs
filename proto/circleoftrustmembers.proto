@@ -1,0 +1,6 @@
+syntax = "proto3";
+option go_package = "proto-buff/proto/circleoftrustmembers";
+
+message CircleOfTrustMembersProto {
+    repeated int64 member_ids = 1;  // list of user IDs
+}
